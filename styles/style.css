@@ -1,13 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Fira Sans", sans-serif;
+}
+
+section {
+  margin: 150px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background-color: indigo;
+  position: fixed;
+  top: 0;
+  color: white;
+  text-align: center;
+}
+
 button {
-  border: 1px solid red;
+  border: none;
   display: block;
   padding: 10px;
   border-radius: 10px;
   width: 200px;
+  background-color: indigo;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 img {
   width: 400px;
+  margin: 10px;
 }
 
 #cat-image {
