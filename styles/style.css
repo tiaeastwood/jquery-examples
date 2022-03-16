@@ -1,3 +1,15 @@
 button {
   border: 1px solid red;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+img {
+  width: 400px;
+}
+
+#cat-image {
+  display: none;
 }

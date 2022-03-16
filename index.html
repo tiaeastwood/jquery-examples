@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Your site metadata -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- links for stylesheets go here -->
     <link rel="stylesheet" href="./styles/style.css" />
+
     <title>Practice Web Site</title>
   </head>
   <body>
     <h1>Hello World!</h1>
     <p>I am a practice website</p>
-    <button>Hello</button>
+    <button id="cat-button">Click for cat</button>
+    <img
+      id="cat-image"
+      src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      alt="a nice cat"
+    />
+
+    <!-- links to your scripts go here. Libraries should be loaded before files -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
