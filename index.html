@@ -8,22 +8,59 @@
     <!-- links for stylesheets go here -->
     <link rel="stylesheet" href="./styles/style.css" />
 
-    <title>Practice Web Site</title>
+    <title>jQuery Examples</title>
   </head>
   <body>
     <header>
-      <h1>HELLO WORLD!</h1>
+      <h1>jQuery Examples</h1>
     </header>
 
-    <section>
-      <p>I am a practice website</p>
-      <button id="cat-button">Click for cat</button>
-      <img
-        id="cat-image"
-        src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-        alt="a nice cat"
-      />
-    </section>
+    <div class="grid-container" id="grid-item-1">
+      <div class="grid-item">
+        <p><strong>.toggle()</strong></p>
+        <button id="cat-button">Click to toggle</button>
+        <div class="image-container">
+          <img
+            id="cat-image"
+            src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="a nice cat"
+          />
+        </div>
+      </div>
+
+      <div class="grid-item" id="grid-item-2">
+        <p><strong>.show()</strong> and <strong>.hide()</strong></p>
+        <span>Trigger with mouseenter and mouseleave</span>
+        <div class="image-container">
+          <img
+            id="mystery-image"
+            src="https://images.unsplash.com/photo-1484069560501-87d72b0c3669?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="a question mark"
+          />
+
+          <img
+            id="puppy-image"
+            src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="a very small, cute puppy"
+          />
+        </div>
+      </div>
+
+      <div class="grid-item" id="grid-item-3">
+        <p><strong>.fadeIn()</strong> and <strong>.fadeOut()</strong></p>
+        <div class="button-container">
+          <button id="fadeOut-button">fade Out</button>
+          <button id="fadeIn-button">fade In</button>
+        </div>
+        <div class="image-container">
+          <img
+            id="fade-kitten"
+            src="https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="small kitten outside in grass"
+          />
+        </div>
+      </div>
+    </div>
 
     <!-- links to your scripts go here. Libraries should be loaded before files -->
     <script
