@@ -37,13 +37,13 @@ section {
 .grid-item {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   background-color: lavender;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  position: relative;
 }
 
 .grid-item:hover {
@@ -76,11 +76,17 @@ button {
 }
 
 .image-container {
-  height: 200px;
+  height: 60%;
   width: 100%;
-  margin: 10px 0;
-  position: absolute;
-  bottom: 0px;
+  margin-top: 10px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 40%;
 }
 
 img {
