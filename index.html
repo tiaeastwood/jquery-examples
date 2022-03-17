@@ -18,9 +18,8 @@
     <div class="grid-container" id="grid-item-1">
       <div class="grid-item">
         <div class="content-container">
-        <h4><strong>.toggle()</strong></h4>
-        <button id="cat-button">Click to toggle</button>
-      </div>
+          <button id="cat-button">.toggle()</button>
+        </div>
         <div class="image-container">
           <img
             id="cat-image"
@@ -32,9 +31,11 @@
 
       <div class="grid-item" id="grid-item-2">
         <div class="content-container">
-        <h4><strong>.show()</strong> and <strong>.hide()</strong></h4>
-        <span>Trigger with mouseenter and mouseleave</span>
-      </div>
+          <div class="button-container">
+            <button id="show-button">.show()</button>
+            <button id="hide-button">.hide()</button>
+          </div>
+        </div>
         <div class="image-container">
           <img
             id="mystery-image"
@@ -52,17 +53,34 @@
 
       <div class="grid-item" id="grid-item-3">
         <div class="content-container">
-        <h4><strong>.fadeIn()</strong> and <strong>.fadeOut()</strong></h4>
-        <div class="button-container">
-          <button id="fadeOut-button">fade Out</button>
-          <button id="fadeIn-button">fade In</button>
-        </div>
+          <div class="button-container">
+            <button id="fadeOut-button">.fadeOut()</button>
+            <button id="fadeIn-button">.fadeIn()</button>
+            <button id="fadeToggle-button">.fadeToggle()</button>
+          </div>
         </div>
         <div class="image-container">
           <img
-            id="fade-kitten"
             src="https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt="small kitten outside in grass"
+            class="fade-img"
+          />
+        </div>
+      </div>
+
+      <div class="grid-item" id="grid-item-4">
+        <div class="content-container">
+          <div class="button-container">
+            <button id="slideUp-button">.slideUp()</button>
+            <button id="slideDown-button">.slideDown()</button>
+            <button id="slideToggle-button">.slideToggle()</button>
+          </div>
+        </div>
+        <div class="image-container">
+          <img
+            src="https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="anxious cat"
+            class="slide-img"
           />
         </div>
       </div>

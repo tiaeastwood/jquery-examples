@@ -44,6 +44,7 @@ section {
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
+  padding-top: 10px;
 }
 
 .grid-item:hover {
@@ -55,24 +56,19 @@ button {
   display: block;
   padding: 10px;
   border-radius: 10px;
-  width: 90%;
+  width: auto;
   background-color: indigo;
   color: white;
   font-size: 16px;
-  text-transform: uppercase;
   font-weight: bold;
-}
-
-#fadeOut-button,
-#fadeIn-button {
-  width: 40%;
-  margin: 0 0 0 5px;
+  margin: 5px;
 }
 
 .button-container {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .image-container {
